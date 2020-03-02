@@ -9,6 +9,7 @@ namespace CSTest
             Console.WriteLine("Hello World!");
             Console.Write("xxx");
             Console.Write("xxx3");
+            Console.Write("xxx4");
         }
     }
 }
