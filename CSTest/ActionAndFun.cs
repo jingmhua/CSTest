@@ -8,8 +8,7 @@ namespace CSTest
      * */
     class ActionAndFun
     {
-        static void Main(string[] args)
-        {
+        public static void ActionAndFunMainFun(string[] args) {
             var cal = new Calculator();
             // Action 用于无形参无返回值的方法。
             Action action = new Action(cal.Report);
@@ -37,21 +36,4 @@ namespace CSTest
         }
     }
 
-    class Calculator
-    {
-        public void Report()
-        {
-            Console.WriteLine("void function : Report()");
-        }
-
-        public int Add(int a, int b)
-        {
-            return a + b;
-        }
-
-        public int Sub(int a, int b)
-        {
-            return a - b;
-        }
-    }
 }
