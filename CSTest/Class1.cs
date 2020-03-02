@@ -6,5 +6,7 @@ namespace CSTest
 {
     class Class1
     {
+        public int a { set; get; }
+
     }
 }
