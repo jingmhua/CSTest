@@ -9,7 +9,7 @@ namespace CSTest
         static void Main(string[] args)
         {
 
-            SampleDelegateTest.SampleDelegateTestMain(args);
+            SampleDelegateTest1.SampleDelegateTestMain(args);
         }
     }
 }

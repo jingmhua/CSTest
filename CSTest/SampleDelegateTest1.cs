@@ -8,7 +8,7 @@ namespace CSTest
      * 下例中 Product、Box、WrapFactory 都不用修改，只需要在 ProductFactory 里面新增不同的 MakeXXX 然后作为委托传入 WrapProduct 就可以对其进行包装。
      */
 
-    class SampleDelegateTest
+    class SampleDelegateTest1
     {
         public static void SampleDelegateTestMain(string[] args) {
             var productFactory = new ProductFactory();
