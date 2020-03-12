@@ -17,6 +17,7 @@ namespace WebApplication_Null
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
+            //CreateDefaultBuilder ：1、设置web服务器；2、加载主机和应用程序配置信息表；3、配置日子记录
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
