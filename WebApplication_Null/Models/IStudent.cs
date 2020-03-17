@@ -8,5 +8,6 @@ namespace WebApplication_Null.Models
    public interface IStudent
     {
         Student GetStudent(int id);
+        IEnumerable<Student> GetAllStudents();
     }
 }

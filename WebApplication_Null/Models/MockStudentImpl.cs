@@ -16,6 +16,12 @@ namespace WebApplication_Null.Models
             new Student {id=2, Name = "name2", ClassName = "classname2", Email = "email2" },
             new Student {id=3,Name = "name3", ClassName = "classname3", Email = "email3" }};
         }
+
+        public IEnumerable<Student> GetAllStudents()
+        {
+            return _students;
+        }
+
         public Student GetStudent(int id)
         {
             return _students.FirstOrDefault(a=>a.id==id);
