@@ -63,6 +63,7 @@ namespace WebApplication_Null.Controllers
 
             //return View(student);//强类型使用这个
 
+            //视图模型使用这种
             HomeDetailsViewModel hdvm = new HomeDetailsViewModel(student, "viewmodel");
             return View(hdvm);
 

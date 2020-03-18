@@ -41,6 +41,7 @@ namespace WebApplication_Null
             //app.UseHttpsRedirection();
             app.UseStaticFiles();
             //app.UseRouting();
+            //添加默认路由，走个MVC
             app.UseMvcWithDefaultRoute();
 
             //app.UseEndpoints(endpoints =>

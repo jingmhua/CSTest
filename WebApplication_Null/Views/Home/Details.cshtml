@@ -1,26 +1,52 @@
 ﻿@using WebApplication_Null.Models
+@*@model WebApplication_Null.Models.Student//强类型使用这个
+        @model WebApplication_Null.ViewModels.HomeDetailsViewModel
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title> </title>
+        </head>
+        <body>
+            <h1>  @ViewData["PageTitle"]  </h1>
+
+            @{
+                var student = ViewData["Student"] as Student;
+            }
+            <div> 弱类型=   @student.Name </div>
+
+            <h1>this is viewbag @ViewBag.PageTitle </h1>
+
+            <div>  姓名 @ViewBag.Student.Name </div>
+
+            @*<h1>强类型= @Model.ClassName</h1>
+
+    <h1>视图模型 = @Model.Student.Name</h1>
+
+    </body>
+    </html>*@
+
+
+
+
+
 @*@model WebApplication_Null.Models.Student//强类型使用这个*@
 @model WebApplication_Null.ViewModels.HomeDetailsViewModel
-<!DOCTYPE html>
-<html>
-<head>
-    <title> </title>
-</head>
-<body>
-    <h1>  @ViewData["PageTitle"]  </h1>
 
-    @{
-        var student = ViewData["Student"] as Student;
-    }
-    <div> 弱类型=   @student.Name </div>
+@{ Layout = "~/Views/Shared/_Layout.cshtml"; ViewBag.Title = "学生详情页";}
 
-    <h1>this is viewbag @ViewBag.PageTitle </h1>
+<h1>  @ViewData["PageTitle"]  </h1>
 
-    <div>  姓名 @ViewBag.Student.Name </div>
+@{
+    var student = ViewData["Student"] as Student;
+}
+<div> 弱类型=   @student.Name </div>
 
-    @*<h1>强类型= @Model.ClassName</h1>*@
+<h1>this is viewbag @ViewBag.PageTitle </h1>
 
+<div>  姓名 @ViewBag.Student.Name </div>
+
+@*<h1>强类型= @Model.ClassName</h1>*@
+
+<h1>  @Model.PageTitle</h1>
 <h1>视图模型 = @Model.Student.Name</h1>
 
-</body>
-</html>
