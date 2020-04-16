@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSTest", "CSTest\CSTest.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication_Null", "WebApplication_Null\WebApplication_Null.csproj", "{235B6125-7756-43E7-B6F7-E9403005C036}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentManagement", "StudentManagement\StudentManagement.csproj", "{0117B4D4-715B-437C-BBCD-31D021849A34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQStudy", "LINQStudy\LINQStudy.csproj", "{CCBD9C06-F01C-4D26-9656-1C0412238ECE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{235B6125-7756-43E7-B6F7-E9403005C036}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{235B6125-7756-43E7-B6F7-E9403005C036}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{235B6125-7756-43E7-B6F7-E9403005C036}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0117B4D4-715B-437C-BBCD-31D021849A34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0117B4D4-715B-437C-BBCD-31D021849A34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0117B4D4-715B-437C-BBCD-31D021849A34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0117B4D4-715B-437C-BBCD-31D021849A34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCBD9C06-F01C-4D26-9656-1C0412238ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCBD9C06-F01C-4D26-9656-1C0412238ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCBD9C06-F01C-4D26-9656-1C0412238ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCBD9C06-F01C-4D26-9656-1C0412238ECE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

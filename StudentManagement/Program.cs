@@ -15,6 +15,7 @@ namespace StudentManagement
     {
         public static void Main(string[] args)
         {
+            //
             CreateWebHostBuilder(args).Build().Run();
         }
 
@@ -35,5 +36,7 @@ namespace StudentManagement
                 
                 )
             .UseStartup<Startup>();
+         
+
     }
 }
