@@ -4,9 +4,14 @@ using System.Linq;
 
 namespace LINQStudy
 {
-    class Program
+    /// <summary>
+    /// 1、Enumerable and collection is not the same.
+    /// 2、Presents Ienumberable 
+    /// 3 sequence and collection is not the same. collection could store data, but sequence not.
+    /// </summary>
+    class Lesson1
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             //foreach (var item in GenerateStrings())
             //{
