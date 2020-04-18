@@ -11,7 +11,7 @@ namespace LINQStudy
     /// </summary>
     class Lesson1
     {
-        static void Main1(string[] args)
+        static void test1(string[] args)
         {
             //foreach (var item in GenerateStrings())
             //{

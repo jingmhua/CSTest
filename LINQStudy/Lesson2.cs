@@ -10,8 +10,9 @@ namespace LINQStudy
     /// </summary>
     class Lesson2
     {
-        public static void Main(string[] args)
-        {
+
+        public  void Test() {
+
             int i = 50;
 
             //var  sequence=GenerateSequence(i, (j) => { return (++j); }).Select(x=>x).Where(s => s < 20);
@@ -29,7 +30,6 @@ namespace LINQStudy
             {
                 Console.WriteLine(item);
             }
-
         }
 
 
