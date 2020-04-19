@@ -9,7 +9,7 @@ namespace LINQStudy
     /// 2、Presents Ienumberable 
     /// 3 sequence and collection is not the same. collection could store data, but sequence not.
     /// </summary>
-    class Lesson1
+    class Lesson1IEnumerable
     {
         static void test1(string[] args)
         {

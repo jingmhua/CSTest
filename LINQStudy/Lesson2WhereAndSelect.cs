@@ -7,8 +7,9 @@ namespace LINQStudy
 {
     /// <summary>
     /// where and select
+    /// 本例子， 完全使用了本例子写的where和select
     /// </summary>
-    class Lesson2
+    class Lesson2WhereAndSelect
     {
 
         public  void Test() {
