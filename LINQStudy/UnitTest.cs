@@ -8,7 +8,10 @@ namespace LINQStudy
    public class UnitTest
     {
         public static void Main(string[] args) {
-            Lesson3();
+            //Lesson3();
+            List<int> list = new List<int> { 3 };
+            Console.WriteLine(3|0);
+
         }
 
         [Fact]
